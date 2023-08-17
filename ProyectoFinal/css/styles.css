@@ -1,0 +1,28 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    background-color:burlywood;
+}
+.sec1{
+    position:fixed;
+    background-color: #013042;
+    width: 100%;
+    height: 50px;
+
+}
+.menu{
+    background-color: #013042;
+    position: relative;
+    color:#fff;
+    float:left;
+    padding:1%;
+    left:20%; 
+    box-sizing: border-box;
+}
+.menu:hover{
+    background-color: #0c224bf7;
+}
+
+
+
