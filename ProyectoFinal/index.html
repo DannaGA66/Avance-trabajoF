@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+    <!--Presentado por : Diego Ospina
+                        Danna Garcia-->
 <!-- https://miro.com/welcomeonboard/OVZwemxvYnlmV0RhZHVUd1RhOUhXSTBCWm4zdUp4Q0hLZnBMZU5jVTFleGpqV2ZlckFyR1JiTkJFV3Z3OHZLMXwzNDU4NzY0NTUzMjM5MDM1NTg0fDI=?share_link_id=797439506002 -->
 <head>
     <meta charset="UTF-8">
@@ -23,9 +24,49 @@
                 <h4 class="menu" onclick="capturaClick()">Archivos</h4>
         </section>
         <section class="sec2">
-            <input type="text">
+            <button type="button" class="guardar" onclick="capturaClick2()">Guardar</button>
+            <button type="button" class="añadir" onclick="capturaClick2()">añadir</button>
+            <button type="button" class="icono_basura" onclick="capturaClick2()">Delete</button>
+            <button type="button" class="imprimir" onclick="capturaClick2()">Print</button>
+            <button type="button" class="vcard" onclick="capturaClick2()">Vcard</button>
+            <button type="button" class="preguntas" onclick="capturaClick2()">Preguntas</button>
+            <button type="button" class="email" onclick="capturaClick2()">Bandeja</button>
+        </section>
+        <section class="sec3">
+            
+            <h3 class="titulo_genero">Genero</h3>
+            <label for="genero1">Femenino</label>
+            <input type="radio" name="genero1" value="Femenino" > 
+            <label for="genero2">Masculino</label>
+            <input type="radio" name="genero2" value="Masculino"> 
+            <label for="telefono">Telefono</label>
+            <input type="text" name="telefono" value=""> 
+            <label for="aseguradora">Aseguradora</label>
+            <input type="text" name="asegurador" value=""> 
+            <label for="localidad">Localidad</label>
+            <input type="text" name="localidad" value=""> 
+            <label for="primer_apellido">Primer Apellido</label>
+            <input type="text" name="primer_apellido" value="">
+            <label for="nacimiento">Fecha de Nacimiento</label> 
+            <input type="text" name="nacimiento" value="">
+            <label for="num_celular">Movil | Celular</label> 
+            <input type="text" name="num_celular" value="">
+            <label for="num_poliza">Numero de poliza</label>
+            <input type="text" name="num_poliza" value="">
+            <label for="segundo_apellido">Segundo apellido</label> 
+            <input type="text" name="segundo_apellido" value=""> 
+            <label for="edad">Edad</label>
+            <input type="text" name="edad" value=""> 
+            <label for="direccion">Dirección</label>
+            <input type="text" name="direccion" value="">
+            <label for="grupo_sang">Grupo sanguineo</label>
+            <input type="text" name="grupo_sang" value=""> 
         </section>
     </main>
+    <footer class="footer">
+        <p>En desarrollo | 2023</p>
+        <p>Derechos reservados</p>
+    </footer>
     <script type="text/javascript" src="./js/app.js"></script>
 </body>
 </html>

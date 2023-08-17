@@ -4,11 +4,16 @@
     box-sizing: border-box;
     background-color:burlywood;
 }
+.main{
+    width: 100%;
+    position:absolute;
+}
 .sec1{
-    position:fixed;
+    display: inline-block;
+    position:relative;
     background-color: #013042;
     width: 100%;
-    height: 50px;
+    height: 60px;
 
 }
 .menu{
@@ -23,6 +28,36 @@
 .menu:hover{
     background-color: #0c224bf7;
 }
+button{
+    float:left;
+    background-color: #013042;
+    border:#013042;
+    color:#fff;
+    width: 70px;
+    height: 30px;
+    top:10px;
+    left:20px;
+    margin: 5px;
+    border-radius: 5px; 
+}
+button:hover{
+    background-color: #0c224bf7;
+}
+.sec2{
+    margin: 1%;
+    padding:1%;
+}
+
+.sec3{
+    margin: 2.3%
+}
+.titulo_genero{
+    padding:10px;
+}
+
+/*flexbox*/
+
+
 
 
 
